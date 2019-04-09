@@ -1,0 +1,28 @@
+{
+  "name": "project-anaesthesia1",
+  "version": "1.0.1",
+  "description": "project_1",
+  "main": "src/bin/brain-games.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3"
+  },
+  "keywords": [
+    "myProject"
+  ],
+  "author": "Anaesthesia",
+  "license": "ISC"
+}
