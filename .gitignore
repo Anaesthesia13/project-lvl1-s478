@@ -1,2 +1,5 @@
 node-modules
 dist
+Makefile~
+package.json~
+babel.config~
