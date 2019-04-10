@@ -21,7 +21,7 @@ if (isEven(IntRandom) === evenOrNot) {
          console.log ('Correct! \n Congratulations, ${knowName}!')
          };
       };
-   };
+   }
       else { 
       console.log ("'${evenOrNot}' is a wrong answer ;(. Correct answer was '${isEven(IntRandom)}'! \n Let's try again, ${knowName}")
       };
