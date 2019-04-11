@@ -3,3 +3,5 @@ dist
 Makefile~
 package.json~
 babel.config~
+node-modules
+node_modules
