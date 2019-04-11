@@ -1,5 +1,3 @@
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
+<a href="https://codeclimate.com/github/Anaesthesia13/project-lvl1-s478/maintainability"><img src="https://api.codeclimate.com/v1/badges/81d90268ce83a1e2b429/maintainability" /></a>
 
 [![Build Status](https://travis-ci.org/Anaesthesia13/project-lvl1-s478.svg?branch=master)](https://travis-ci.org/Anaesthesia13/project-lvl1-s478)
