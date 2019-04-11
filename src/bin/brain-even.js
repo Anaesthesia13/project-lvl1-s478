@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 console.log ("Welcome to the Brain Games!");
-import knowName from '..';
+import { knowName } from '..';
 knowName ();
 
 console.log ('Answer "yes" if number even otherwise answer "no".')
