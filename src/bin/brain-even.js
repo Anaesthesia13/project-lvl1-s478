@@ -19,7 +19,7 @@ if (isEven(IntRandom) === evenOrNot) {
       console.log ('Question: ${IntRandom}');
       eventOrNot ();
       if (isEven(IntRandom) === evenOrNot) {
-         console.log ('Correct! \n Congratulations, ${knowName}!')
+         console.log ('Correct! \n Congratulations, ${knowName}!');
          };
       };
    }
