@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-console.log ("Welcome to the Brain Games!");
 import { knowName } from '..';
+import { IntRandom, evenOrNot, isEven } from 'even.js';
+console.log ("Welcome to the Brain Games!");
+
 knowName ();
 
 console.log ('Answer "yes" if number even otherwise answer "no".')
-import { IntRandom, evenOrNot, isEven } from 'even.js';
 
 const game = () => {
 console.log ('Question: ${IntRandom}');

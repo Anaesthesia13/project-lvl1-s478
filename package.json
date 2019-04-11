@@ -1,6 +1,6 @@
 {
   "name": "project-anaesthesia1",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "project_1, brain games, level one",
   "main": "",
   "bin": {
@@ -19,7 +19,11 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3"
+    "@babel/preset-env": "^7.4.3",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.15.0"
   },
   "keywords": [
     "myProject, brain games"
