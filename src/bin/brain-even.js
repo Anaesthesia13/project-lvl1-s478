@@ -5,7 +5,7 @@ console.log ("Welcome to the Brain Games!");
 
 knowName ();
 
-console.log ('Answer "yes" if number even otherwise answer "no".')
+console.log ('Answer "yes" if number even otherwise answer "no".');
 
 const game = () => {
 console.log ('Question: ${IntRandom}');
