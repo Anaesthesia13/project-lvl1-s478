@@ -3,7 +3,7 @@ import { knowName } from '..';
 console.log ('Welcome to the Brain Games!');
 knowName ();
 
-exprot const SumOfRandom = (f,s) => {
+export const SumOfRandom = (f,s) => {
 const x = {
   return Math.random() * (f - s);
 };
