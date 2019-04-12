@@ -6,5 +6,5 @@ export const isEven = () => {
 if (i === 0) {return yes;}
 else {return no;}
 };
-export const evenOrNot = () => {
-readLineSynq.question ('Your answer: ')};
+export const evenOrNot = readLineSynq.question ('Your answer: ');
+
