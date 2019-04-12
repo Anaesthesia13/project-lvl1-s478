@@ -1,5 +1,5 @@
 export const IntRandom = (s, f) => {
-  return Math.random() * (f - s);
+  return Math.floor(Math.random() * (f - s));
 };
 export const isEven = () => {
 	let i = IntRandom % 2;
