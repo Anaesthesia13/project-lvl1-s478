@@ -6,18 +6,18 @@ const compare = () => {
 	let i = x % 2;
 if (i === 0) {
 	return true;
-	}
+}
 else {
 	return false;
-	}
+}
 };
 export const isEven = () => {
 if (compare (x) === true) {
 	return 'yes';
-	}
+}
 else {
 	return 'no';
-	}
+}
 };
 export const evenOrNot = () => {
 	readLineSynq.question('Your answer: ');
