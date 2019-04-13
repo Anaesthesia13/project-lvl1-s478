@@ -3,6 +3,7 @@ import { knowName, game, response } from '..';
 
 import { divisor, ask } from '../calc.js';
 
+console.log('Welcome to the Brain Games! \n Find the greatest common divisor of given numbers.');
 knowName();
 ask();
 game(divisor, ask, response);

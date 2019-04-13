@@ -2,7 +2,6 @@ import readlineSync from 'readline-sync';
 
 export const IntRandom = (s, f) => Math.floor(Math.random() * (f - s));
 export const knowName = () => {
-  console.log("Welcome to the Brain Games!");
   readlineSynq.question('May I have your name? ');
   console.log('Hello, ${knowName}!');
 };

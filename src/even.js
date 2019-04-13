@@ -18,5 +18,4 @@ export const isEven = (x) => {
 };
 export const evenOrNot = () => {
   readLineSynq.question('Your answer: ');
-  console.log('Answer "yes" if number even otherwise answer "no".');
 };

@@ -1,5 +1,3 @@
-import readlineSync from 'readline-sync';
-
 import { IntRandom } from 'index.js';
 
 const x = IntRandom(1, 100);
