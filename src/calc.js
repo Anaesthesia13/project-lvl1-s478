@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import { knowName, intRandom } from './index.js';
+import { knowName, IntRandom } from './index.js';
 
 knowName();
-const x = intRandom(1, 100);
-const y = intRandom(1, 100);
+const x = IntRandom(1, 100);
+const y = IntRandom(1, 100);
 const operand = ['+', '-', '*'];
 const sign = Math.random() * operand.length;
 const z = operand[sign];
