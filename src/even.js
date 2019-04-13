@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
 
-import { intRandom } from './index.js';
+import { IntRandom } from './index.js';
 
-const x = intRandom(1, 100);
+const x = IntRandom(1, 100);
 const compare = () => {
   let i = x % 2;
   if (i === 0) {
@@ -10,7 +10,7 @@ const compare = () => {
   }
   return false;
 };
-export const isEven = () => {
+export const isEven = (x) => {
   if (compare (x) === true) {
     return 'yes';
   }

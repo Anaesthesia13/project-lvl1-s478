@@ -13,7 +13,7 @@ export const game = (log, ask, answer) => {
     console.log("'${answer}' is a wrong answer ;(. Correct answer was '${log}'! \n Let's try again, ${knowName}");
   }
   else {
-    for (let i = 1; ask === answer && i <= 3; i +=1) {
+    for (let i = 1; ask === answer && i <= 3; i += 1) {
       console.log('Correct!');
       console.log('Question: ${ask}');
     }
