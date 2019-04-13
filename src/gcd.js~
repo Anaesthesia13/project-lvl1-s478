@@ -1,0 +1,21 @@
+import readlineSync from 'readline-sync';
+
+import { intRandom } from './index.js';
+
+const x = intRandom(1, 100);
+const y = intRandom(1, 100);
+const divisor = () => {
+  if (x > y) {
+    for (let i = y; x % y > 0; i++) {
+    return i;
+    }
+  }
+  else if (x < y) {
+    for (let i = x; y % x > 0; i++) {
+    return i;
+    }
+  }
+  else {
+  	 return x;
+  	 }
+}
