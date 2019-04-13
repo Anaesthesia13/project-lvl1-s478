@@ -1,9 +1,15 @@
-export const IntRandom = (s, f) => Math.floor(Math.random() * (f - s));
+const IntRandom = (s, f) => Math.floor(Math.random() * (f - s));
+
+export const x = IntRandom (1,100);
+const compare = () => {
+	let i = x % 2;
+if (i === 0) {return true;}
+else {return false;}
+};
 
 export const isEven = () => {
-	let i = IntRandom (1,100)% 2;
-if (i === 0) {return yes;}
-else {return no;}
+if (compare === true) {return 'yes';}
+else {return 'no';}
 };
 
 export const evenOrNot = () => {

@@ -13,7 +13,7 @@ if (log !== answer) {
 console.log ("'${answer}' is a wrong answer ;(. Correct answer was '${log}'! \n Let's try again, ${knowName}");
       }
       else {
-for (let i=1, i<=3; ask === answer; i++) {
+for (let i=1; ask === answer, i<=3; i++) {
 	console.log ('Correct!');
 	console.log ('Question: ${ask}');
 };
